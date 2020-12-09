@@ -1,0 +1,143 @@
+.Header_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Header_section_hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Header_section_hero > h2 {
+    font-family: auto;
+    color: #131212;
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0 !important;
+}
+
+.Header_section_hero > h3 {
+    font-family: auto;
+    color: #131111;
+    font-size: 2em;
+    margin: 0 !important;
+}
+
+.Shipment_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.Shipment_section > .discount_section_1 {
+    background-image: url(./images/Discount_images1.jpg);
+    height: 183px;
+    width: 20%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Shipment_section > .discount_section_2 {
+    background-image: url(./images/Discount_images2.jpg);
+    height: 183px;
+    width: 20%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Shipment_section > .discount_section_3 {
+    background-image: url(./images/Discount_images3.jpg);
+    height: 183px;
+    width: 20%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contains {
+    font-family: cursive;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 156px;
+}
+
+
+.contains::after {
+    height: 10px;
+    display: block;
+    width: 100px;
+    background: #3806c0;
+    border-top: 1px white;
+    content: '';
+
+}
+
+.contains::before {
+    height: 10px;
+    display: block;
+    width: 100px;
+    background: #3806c0;
+    border-bottom: 1px white;
+    content: '';
+
+}
+
+.btn {
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .Shipment_section {
+        flex-direction: column;
+    }
+
+    .Shipment_section > .discount_section_1 {
+        width: 60%;
+    }
+    .Shipment_section > .discount_section_2 {
+        width: 60%;
+    }
+    .Shipment_section > .discount_section_3 {
+        width: 60%;
+    }
+
+    .Header_section_hero > h2 {
+        font-size: 1em;
+    }
+    .Header_section_hero > h3 {
+        font-size: 1em;
+    }
+    .Header_section_hero {
+        height: 17rem !important;
+    
+    }
+   
+  }

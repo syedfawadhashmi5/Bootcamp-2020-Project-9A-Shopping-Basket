@@ -1,0 +1,63 @@
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.heading::after {
+    height: 10px;
+    display: block;
+    width: 100%;
+    background: #3806c0;
+    content: '';
+
+}
+
+.heading::before {
+    height: 10px;
+    display: block;
+    width: 100%;
+    background: #3806c0;
+    content: '';
+
+}
+
+.productImg {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 9px;
+}
+
+.productName, .productPrice {
+    color: #020202;
+    text-align: center;
+    font-family: inherit;
+}
+
+.contentAlign {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 21px;
+}
+.productDes {
+    font-weight: 400;
+    color: #071350;
+}
+
+.addToCart {
+    background-color: #4363f5;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #5c79fc;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fefefe;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.MuiCardContent-root {
+    padding: 0px !important;
+}

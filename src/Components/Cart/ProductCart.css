@@ -1,0 +1,24 @@
+.cartPage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.cartHead {
+    padding: 10px;
+    border-bottom: 2px solid #608cdf;
+}
+
+.cartBody {
+    padding: 10px;
+    border-bottom: 1px solid #608cdf;
+    flex-flow: column;
+}
+
+.spacebetween  {
+    color: black;
+    font-size: 33px;
+    text-align: center;
+}
