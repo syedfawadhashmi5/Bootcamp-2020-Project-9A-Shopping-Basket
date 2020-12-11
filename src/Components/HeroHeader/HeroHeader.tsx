@@ -1,7 +1,6 @@
 import React from "react";
 import "./HeroHeader.css";
 import Button from "@material-ui/core/Button";
-import { Container, Box } from "@material-ui/core";
 
 import HeroImage from "./images/Hederhero.jpg";
 

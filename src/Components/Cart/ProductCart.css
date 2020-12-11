@@ -6,6 +6,11 @@
     margin: 0;
 }
 
+.MuiGrid-spacing-xs-5 {
+    width: 100% !important;
+    margin: -20px;
+}
+
 .cartHead {
     padding: 10px;
     border-bottom: 2px solid #608cdf;
@@ -14,11 +19,50 @@
 .cartBody {
     padding: 10px;
     border-bottom: 1px solid #608cdf;
-    flex-flow: column;
 }
 
 .spacebetween  {
     color: black;
     font-size: 33px;
-    text-align: center;
 }
+
+.MuiGrid-grid-xs-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 15% !important;
+}
+
+.MuiGrid-grid-xs-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.cart_Img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 9px;
+    height: auto;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .MuiGrid-grid-xs-3 {
+        flex-grow: 0;
+        max-width: 25%;
+        flex-basis: 15%;
+        flex-direction: column;
+    }
+    .MuiGrid-justify-xs-center {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .MuiGrid-spacing-xs-1 > .MuiGrid-item {
+        padding: 0 !important;
+    }
+
+  }

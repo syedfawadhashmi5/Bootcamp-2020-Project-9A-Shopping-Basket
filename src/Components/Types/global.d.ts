@@ -18,4 +18,5 @@ export interface cartType {
 
 export interface stateType {
   cart: cartType[];
+  quantity: number;
 }

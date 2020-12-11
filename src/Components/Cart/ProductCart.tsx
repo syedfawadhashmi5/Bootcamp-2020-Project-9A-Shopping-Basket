@@ -40,7 +40,7 @@ function ProductCart() {
                 >
                   <Grid item xs={3}>
                     <img
-                      className="productImg"
+                      className="cart_Img"
                       src={item.image}
                       alt={item.name}
                     />

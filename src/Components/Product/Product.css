@@ -22,9 +22,10 @@
 }
 
 .productImg {
-    object-fit: contain;
+    /* object-fit: contain; */
     width: 100%;
     border-radius: 9px;
+    height: 27rem;
 }
 
 .productName, .productPrice {
@@ -60,4 +61,27 @@
 
 .MuiCardContent-root {
     padding: 0px !important;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .MuiGrid-spacing-xs-1 > .MuiGrid-item {
+        padding: 4px;
+        font-size: 15px;
+        width: 100%;
+        /* justify-content: center; */
+        display: contents !important;
+    }
+
+    .productImg {
+        object-fit: contain;
+        width: 100%;
+        border-radius: 9px;
+        height: auto !important;
+    }
+
+    .MuiGrid-spacing-xs-5 {
+        width: 100% !important;
+        margin: -20px;
+    }
 }
